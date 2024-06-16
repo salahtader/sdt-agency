@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import colors from '../utils/style/colors'
-import homeIllustration from '../assets/home-illustration.png'
+import colors from '../../utils/style/colors'
+import homeIllustration from '../../assets/home-illustration.png'
 
 const HomeContainer = styled.div`
     display: flex;

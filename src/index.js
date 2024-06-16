@@ -5,8 +5,8 @@ import Home from './pages/Home'
 import Survey from './pages/Survey'
 import Header from './components/Header'
 import ClientForm from './components/ClientForm'
-import FreelanceForm from './components/FreelanceForm'
-import Error from './pages/Error'
+import FreelanceForm from './pages/Freelances'
+import Error from './components/Error'
 import { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
     div {

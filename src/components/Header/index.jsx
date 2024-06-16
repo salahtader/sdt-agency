@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import colors from '../utils/style/colors'
-import logo from '../assets/logo.png'
+import colors from '../../utils/style/colors'
+import logo from '../../assets/logo.png'
 
 const NavBar = styled.nav`
     display: flex;

@@ -1,7 +1,7 @@
-import DefaultPicture from "../assets/profile.png";
-import Card from "./Card";
+import DefaultPicture from "../../assets/profile.png";
+import Card from "../../components/Card";
 import styled from 'styled-components'
-import colors from '../utils/style/colors'
+import colors from '../../utils/style/colors'
 
 const FreelancesContainer = styled.div`
     padding: 40px;
@@ -46,7 +46,7 @@ const freelanceProfiles = [
     picture: DefaultPicture,
   },
 ];
-function FreelanceForm() {
+function Freelances() {
   return (
     <FreelancesContainer>
     <Title>Nos Freelances</Title>
@@ -63,4 +63,4 @@ function FreelanceForm() {
    </FreelancesContainer>
   );
 }
-export default FreelanceForm;
+export default Freelances;
